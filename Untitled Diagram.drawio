@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-13T20:50:48.204Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="6B8aGxblXD5FSyeplsYb" version="14.4.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-13T20:52:25.362Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="fCY43FhutGZAPtwHlDFR" version="14.4.8" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -168,6 +168,9 @@
         <mxCell id="31XAmu3wirYMFgPHH8S4-41" value="+getLocal()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="31XAmu3wirYMFgPHH8S4-37">
           <mxGeometry y="86" width="160" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="CzUuCIz_zLY8HM2_geKU-0" value="Sistema Mapas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="80" width="100" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -187,7 +190,7 @@
         <mxCell id="3UXA6sO0aQjLdaKUkEe5-2" value="+ Create()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3UXA6sO0aQjLdaKUkEe5-0">
           <mxGeometry y="34" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3UXA6sO0aQjLdaKUkEe5-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;startArrow=none;endArrow=oval;endFill=0;startFill=0;" edge="1" target="3UXA6sO0aQjLdaKUkEe5-2" parent="MA_nOqeNWP1o4pDqXl-5-1">
+        <mxCell id="3UXA6sO0aQjLdaKUkEe5-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=none;endArrow=oval;endFill=0;startFill=0;" edge="1" target="3UXA6sO0aQjLdaKUkEe5-2" parent="MA_nOqeNWP1o4pDqXl-5-1" source="9NKGlMP9vnTwlhpY_rBs-0">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="187.5" as="sourcePoint" />
           </mxGeometry>
@@ -312,6 +315,12 @@
         </mxCell>
         <mxCell id="3UXA6sO0aQjLdaKUkEe5-46" value="+ clone()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3UXA6sO0aQjLdaKUkEe5-41">
           <mxGeometry y="112" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9NKGlMP9vnTwlhpY_rBs-0" value="P=Prototype-&amp;gt;Clone()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MA_nOqeNWP1o4pDqXl-5-1">
+          <mxGeometry x="30" y="190" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xGOv_8FkbYRrHrn0Y51W-0" value="Sistema Mercado" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="MA_nOqeNWP1o4pDqXl-5-1">
+          <mxGeometry x="324" y="50" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

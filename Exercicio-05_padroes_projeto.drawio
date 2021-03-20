@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-20T19:19:47.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="ULakjoKnMPWX4FasYt5m" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-20T19:26:34.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="No3Sn9hdtWVWUQzLhjn4" version="14.4.9" type="github">
   <diagram id="IGX6_VvE0Hk0f3OhreeT" name="Page-1">
     <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,6 +50,9 @@
         </mxCell>
         <mxCell id="susBTJP7pNWJsK42ECex-33" value="Sistema em tempo real de vendas para lojas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="305" y="30" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-34" value="foi utilizado para a resolução desse exercício o padrão façade, visando agilizar o acesso da classe loja para&amp;nbsp;acessar os subsistemas de&lt;br&gt;&amp;nbsp;mapa, gráfico e planilhas, dependendo das especificações poderiam ser&amp;nbsp;&amp;nbsp;usados padroes como prototype ou builder para construir&lt;br&gt;&amp;nbsp;as lojas ou os subssistemas, e padroes como decorator para melhorar as interfaces." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="625" width="740" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

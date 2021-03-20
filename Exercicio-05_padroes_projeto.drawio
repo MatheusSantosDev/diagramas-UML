@@ -1,1 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2021-03-20T19:07:58.059Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" version="14.4.9" etag="2inXOVmh5y8foR5Ho1W6" type="github"><diagram id="IGX6_VvE0Hk0f3OhreeT">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-20T19:19:47.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="ULakjoKnMPWX4FasYt5m" version="14.4.9" type="github">
+  <diagram id="IGX6_VvE0Hk0f3OhreeT" name="Page-1">
+    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="susBTJP7pNWJsK42ECex-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="susBTJP7pNWJsK42ECex-15" target="susBTJP7pNWJsK42ECex-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-15" value="Loja" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="350" y="80" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-16" value="+nome&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="susBTJP7pNWJsK42ECex-15">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="susBTJP7pNWJsK42ECex-17" target="susBTJP7pNWJsK42ECex-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-17" value="Vendas Façade" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="350" y="280" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-18" value="+Mapa&#xa;+Gráfico&#xa;+Planilha&#xa;&#xa;+MostrarVendas()" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="susBTJP7pNWJsK42ECex-17">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="susBTJP7pNWJsK42ECex-18" target="susBTJP7pNWJsK42ECex-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="susBTJP7pNWJsK42ECex-18" target="susBTJP7pNWJsK42ECex-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="430" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-22" value="Mapa" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="350" y="480" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-23" value="+Localização da loja&#xa;+Quantidade de vendas &#xa;por veiculo" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="susBTJP7pNWJsK42ECex-22">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-27" value="Gráfico" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="110" y="480" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-28" value="+valor total vendas por loja" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="susBTJP7pNWJsK42ECex-27">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-30" value="Planilha" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="590" y="480" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-31" value="+Total disponivel de veiculos" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="susBTJP7pNWJsK42ECex-30">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-33" value="Sistema em tempo real de vendas para lojas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="30" width="250" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

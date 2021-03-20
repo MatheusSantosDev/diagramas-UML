@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-20T19:26:34.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="No3Sn9hdtWVWUQzLhjn4" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-20T21:11:40.042Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="RkalgM6Inik7gEH6lkhO" version="14.4.9" type="github">
   <diagram id="IGX6_VvE0Hk0f3OhreeT" name="Page-1">
     <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -48,11 +48,74 @@
         <mxCell id="susBTJP7pNWJsK42ECex-31" value="+Total disponivel de veiculos" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="susBTJP7pNWJsK42ECex-30">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="susBTJP7pNWJsK42ECex-33" value="Sistema em tempo real de vendas para lojas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="305" y="30" width="250" height="20" as="geometry" />
+        <mxCell id="susBTJP7pNWJsK42ECex-33" value="Sistema em tempo real de vendas para lojas - padrão façade" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="30" width="340" height="20" as="geometry" />
         </mxCell>
         <mxCell id="susBTJP7pNWJsK42ECex-34" value="foi utilizado para a resolução desse exercício o padrão façade, visando agilizar o acesso da classe loja para&amp;nbsp;acessar os subsistemas de&lt;br&gt;&amp;nbsp;mapa, gráfico e planilhas, dependendo das especificações poderiam ser&amp;nbsp;&amp;nbsp;usados padroes como prototype ou builder para construir&lt;br&gt;&amp;nbsp;as lojas ou os subssistemas, e padroes como decorator para melhorar as interfaces." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="65" y="625" width="740" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-35" value="Sistema Editor de Textos - padrão adapter" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1200" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="susBTJP7pNWJsK42ECex-36" target="susBTJP7pNWJsK42ECex-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-36" value="Editor Cliente" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1280" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-37" value="+abrirTexto()&#xa;+editarTexto()&#xa;+fecharTexto()" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="susBTJP7pNWJsK42ECex-36">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="susBTJP7pNWJsK42ECex-39" target="susBTJP7pNWJsK42ECex-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-39" value="&lt;&lt;Interface&gt;&gt;&#xa;Texto Taget" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1470" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-40" value="+abrirTexto()&#xa;+editarTexto()&#xa;+fecharTexto()" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="susBTJP7pNWJsK42ECex-39">
+          <mxGeometry y="30" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="susBTJP7pNWJsK42ECex-40" target="susBTJP7pNWJsK42ECex-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="susBTJP7pNWJsK42ECex-40" target="susBTJP7pNWJsK42ECex-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="susBTJP7pNWJsK42ECex-42" target="susBTJP7pNWJsK42ECex-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-42" value="C# adapter" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1680" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-43" value="+abrirTexto()&#xa;          +C#AbrirTexto()&#xa;+editarTexto()&#xa;          +C#EditarTexto()&#xa;+fecharTexto()&#xa;          +C#EditarTexto()" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="susBTJP7pNWJsK42ECex-42">
+          <mxGeometry y="30" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-45" value="Java adapter" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1680" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-46" value="+abrirTexto()&#xa;          +javaAbrirTexto()&#xa;+editarTexto()&#xa;          +javaEditarTexto()&#xa;+fecharTexto()&#xa;          +javaFecharTexto()" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="susBTJP7pNWJsK42ECex-45">
+          <mxGeometry y="30" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-48" value="JavaScript adapter" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1680" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-49" value="+abrirTexto()&#xa;      +javaScriptAbrirTexto()&#xa;+editarTexto()&#xa;      +javaScriptEditarTexto()&#xa;+fecharTexto()&#xa;    +javaScriptFecharTexto()" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="susBTJP7pNWJsK42ECex-48">
+          <mxGeometry y="30" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-52" value="Visualizar texto" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1890" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-53" value="+abrirTexto()  &#xa;+fecharTexto()&#xa;          " style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="susBTJP7pNWJsK42ECex-52">
+          <mxGeometry y="30" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="susBTJP7pNWJsK42ECex-46" target="susBTJP7pNWJsK42ECex-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="susBTJP7pNWJsK42ECex-49" target="susBTJP7pNWJsK42ECex-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="susBTJP7pNWJsK42ECex-57" value="Com a interface texto target podemos delegar para as classes que representam as linguagens de programação a implementarem seus&lt;br&gt;próprios métodos de abrir, fechar e editar os textos, garantindo assim que todo arquivo do tipo texto poderão ser editados, abertos e fechados&lt;br&gt;&amp;nbsp;corretamente&amp;nbsp; mesmo com linguagens de programação diferentes e no final pode se conferir o resultado na classe de visualização," style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="29" y="2045" width="770" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

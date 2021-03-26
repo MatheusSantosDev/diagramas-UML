@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-26T22:03:34.784Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="8JU1qy8hMJu09-rTiSuO" version="14.5.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-03-26T22:04:21.287Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="TiVbfpRE5wStkRgg8S3a" version="14.5.1" type="github" pages="4">
   <diagram id="THf9DWfrAllVLS2fdhjk" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -7,13 +7,13 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="eOX76S7Y0mtXT3SGhpV3" name="2_Impressora">
-    <mxGraphModel dx="462" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <diagram id="eOX76S7Y0mtXT3SGhpV3" name="2_Impressões">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="Mytf7bnAdEDAXIpb7b2z-0" />
         <mxCell id="Mytf7bnAdEDAXIpb7b2z-1" parent="Mytf7bnAdEDAXIpb7b2z-0" />
         <mxCell id="inRHO1eajmmefQOpHFSM-7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ImpressãoSingleton&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp; - ImpressãoSingleton uniqueInstance&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp;- ImpressãoSingleton()&lt;br&gt;&amp;nbsp;+ synchronized ImpressãoSingleton getInstance()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="Mytf7bnAdEDAXIpb7b2z-1">
-          <mxGeometry x="170" y="310" width="280" height="130" as="geometry" />
+          <mxGeometry x="540" y="350" width="280" height="130" as="geometry" />
         </mxCell>
         <mxCell id="inRHO1eajmmefQOpHFSM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Mytf7bnAdEDAXIpb7b2z-1" source="inRHO1eajmmefQOpHFSM-7" target="inRHO1eajmmefQOpHFSM-7">
           <mxGeometry relative="1" as="geometry" />
@@ -21,10 +21,10 @@
         <mxCell id="inRHO1eajmmefQOpHFSM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Mytf7bnAdEDAXIpb7b2z-1" source="inRHO1eajmmefQOpHFSM-7" target="inRHO1eajmmefQOpHFSM-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="460" y="350" />
-              <mxPoint x="500" y="350" />
-              <mxPoint x="500" y="500" />
-              <mxPoint x="250" y="500" />
+              <mxPoint x="830" y="390" />
+              <mxPoint x="870" y="390" />
+              <mxPoint x="870" y="540" />
+              <mxPoint x="620" y="540" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -32,6 +32,9 @@
           <mxGeometry x="0.4233" y="-1" relative="1" as="geometry">
             <mxPoint x="33.5" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="inRHO1eajmmefQOpHFSM-11" value="Exercicio 2 - fila de impressões" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="Mytf7bnAdEDAXIpb7b2z-1">
+          <mxGeometry x="460" y="260" width="180" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

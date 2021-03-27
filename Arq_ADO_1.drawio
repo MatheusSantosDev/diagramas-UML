@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-27T03:20:17.756Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="N1fJdgb936PCsE9ETK27" version="14.5.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-03-27T03:22:48.038Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="vH6TVU6VYCEaOlsqv8wt" version="14.5.1" type="github" pages="4">
   <diagram id="THf9DWfrAllVLS2fdhjk" name="1_E-mails">
-    <mxGraphModel dx="462" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -91,6 +91,9 @@
         </mxCell>
         <mxCell id="_hiokCQZ-LGKm_-X_FdJ-2" value="&lt;b&gt;desvantagens&lt;/b&gt;&lt;br&gt;* por sua estrutura, é comum uma requisição passar por toda a cadeia e&amp;nbsp;&lt;br&gt;não ser atendida, não por conta do padrão em si, mas pela quantidade de&amp;nbsp;&lt;br&gt;classes e relacionamentos muitas vezes não atinge 100% das solicitações" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="595" y="960" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l4f8Vwn4dh6Dy8GlQ0QU-1" value="poderia ser utilizado o padrão de projeto Mediator que trabalha como uma central telefonica que comunica os objetos que precisam de interação" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1160" width="780" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

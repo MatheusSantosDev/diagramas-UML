@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-27T06:24:11.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="ndCI6PSaMdiOcQ4mxhFu" version="14.5.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-03-27T06:24:30.019Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="BqxSppFKOXTsXevLo-O3" version="14.5.1" type="github" pages="4">
   <diagram id="THf9DWfrAllVLS2fdhjk" name="1_E-mails">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -149,7 +149,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="t5bgA46i2kPyoGgze71Z" name="Torradores_de_cafe">
-    <mxGraphModel dx="1631" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0rzKR2Agluwp4kBhpItp-0" />
         <mxCell id="0rzKR2Agluwp4kBhpItp-1" parent="0rzKR2Agluwp4kBhpItp-0" />
@@ -229,13 +229,13 @@
           <mxGeometry x="90" y="895" width="1040" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9_rLL8DhfQTqH4dtjU5_-0" value="&lt;b&gt;vantagens&lt;/b&gt;&lt;br&gt;* Separa a criação de utilização&lt;br&gt;* Cliente não precisa criar as torradeiras diretamente&lt;br&gt;*O mesmo codigo pode construir objetos diferentes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="0rzKR2Agluwp4kBhpItp-1">
-          <mxGeometry x="155" y="1030" width="300" height="60" as="geometry" />
+          <mxGeometry x="260" y="1040" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9_rLL8DhfQTqH4dtjU5_-1" value="&lt;b&gt;desvantagens&lt;/b&gt;&lt;br&gt;* o código final pode se tornar muito complexo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="0rzKR2Agluwp4kBhpItp-1">
-          <mxGeometry x="670" y="1055" width="260" height="30" as="geometry" />
+          <mxGeometry x="775" y="1065" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9_rLL8DhfQTqH4dtjU5_-2" value="Como padrão substituto poderia ser usado o prototype, para clonar as torradeiras e criar novas com base na clonada." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="0rzKR2Agluwp4kBhpItp-1">
-          <mxGeometry x="-110" y="1140" width="640" height="20" as="geometry" />
+          <mxGeometry x="335" y="1150" width="640" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

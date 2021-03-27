@@ -1,20 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2021-03-27T02:31:56.326Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="G6hyfh_6tRG3WtqRoQtW" version="14.5.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-03-27T02:52:39.922Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="y4UTIhmU6MIuBc0jOmbQ" version="14.5.1" type="github" pages="4">
   <diagram id="THf9DWfrAllVLS2fdhjk" name="1_E-mails">
-    <mxGraphModel dx="462" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jGGfWXVOWTbNZ3hlvW6d-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamond;startFill=0;" edge="1" parent="1" source="jGGfWXVOWTbNZ3hlvW6d-1" target="jGGfWXVOWTbNZ3hlvW6d-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jGGfWXVOWTbNZ3hlvW6d-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;EmailGeralChain&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;~&amp;nbsp;void setNextChain(EmailGeralChain nextChain)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;~ void dispense(PalavraChave pal)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="90" width="280" height="140" as="geometry" />
+          <mxGeometry x="420" y="70" width="280" height="140" as="geometry" />
         </mxCell>
         <mxCell id="jGGfWXVOWTbNZ3hlvW6d-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jGGfWXVOWTbNZ3hlvW6d-1" target="jGGfWXVOWTbNZ3hlvW6d-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="780" y="160" />
-              <mxPoint x="780" y="40" />
-              <mxPoint x="620" y="40" />
+              <mxPoint x="730" y="140" />
+              <mxPoint x="730" y="20" />
+              <mxPoint x="560" y="20" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jGGfWXVOWTbNZ3hlvW6d-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;startArrow=diamond;startFill=0;" edge="1" parent="1" source="jGGfWXVOWTbNZ3hlvW6d-3" target="jGGfWXVOWTbNZ3hlvW6d-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jGGfWXVOWTbNZ3hlvW6d-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Cliente&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;-&amp;nbsp;EmailGeralChain c1&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+Cliente()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void main(String[] args)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="114" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jGGfWXVOWTbNZ3hlvW6d-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;PalavraChave&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- String palavra&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;PalavraChave(String palavra)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;String getPalavra()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="634" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jGGfWXVOWTbNZ3hlvW6d-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;startArrow=diamond;startFill=0;" edge="1" parent="1" source="jGGfWXVOWTbNZ3hlvW6d-8" target="jGGfWXVOWTbNZ3hlvW6d-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jGGfWXVOWTbNZ3hlvW6d-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;startArrow=none;startFill=0;" edge="1" parent="1" source="jGGfWXVOWTbNZ3hlvW6d-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="165" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jGGfWXVOWTbNZ3hlvW6d-8" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;EmailAcademico&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- EmailGeralChain chain&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ void setNextChain(EmailGeralChain nextChain)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ void dispense(PalavraChave pal)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="274" width="270" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jGGfWXVOWTbNZ3hlvW6d-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=diamond;startFill=0;" edge="1" parent="1" source="jGGfWXVOWTbNZ3hlvW6d-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jGGfWXVOWTbNZ3hlvW6d-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;dashed=1;" edge="1" parent="1" source="jGGfWXVOWTbNZ3hlvW6d-11" target="jGGfWXVOWTbNZ3hlvW6d-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jGGfWXVOWTbNZ3hlvW6d-11" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Email Administração&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- EmailGeralChain chain&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ void setNextChain(EmailGeralChain nextChain)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ void dispense(PalavraChave pal)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="460" width="270" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jGGfWXVOWTbNZ3hlvW6d-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=diamond;startFill=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jGGfWXVOWTbNZ3hlvW6d-12" target="jGGfWXVOWTbNZ3hlvW6d-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jGGfWXVOWTbNZ3hlvW6d-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;" edge="1" parent="1" source="jGGfWXVOWTbNZ3hlvW6d-12" target="jGGfWXVOWTbNZ3hlvW6d-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jGGfWXVOWTbNZ3hlvW6d-12" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Email Administração&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- EmailGeralChain chain&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ void setNextChain(EmailGeralChain nextChain)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ void dispense(PalavraChave pal)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="460" width="270" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jGGfWXVOWTbNZ3hlvW6d-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;startArrow=diamond;startFill=0;" edge="1" parent="1" source="jGGfWXVOWTbNZ3hlvW6d-13" target="jGGfWXVOWTbNZ3hlvW6d-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jGGfWXVOWTbNZ3hlvW6d-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;startArrow=none;startFill=0;" edge="1" parent="1" source="jGGfWXVOWTbNZ3hlvW6d-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="945" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jGGfWXVOWTbNZ3hlvW6d-13" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Email Administração&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- EmailGeralChain chain&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ void setNextChain(EmailGeralChain nextChain)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ void dispense(PalavraChave pal)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="290" width="270" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

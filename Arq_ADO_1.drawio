@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-27T20:12:34.911Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="xp9GX4DZQ2oSzV8w63UD" version="14.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-03-27T20:17:53.788Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="U9RWkPiFpQ-HyZf4y8rv" version="14.5.3" type="github" pages="4">
   <diagram id="THf9DWfrAllVLS2fdhjk" name="1_E-mails">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -84,19 +84,22 @@
           <mxGeometry x="810" y="290" width="270" height="140" as="geometry" />
         </mxCell>
         <mxCell id="Lh6zzHgLQ3Scu1wEVP6W-1" value="Nesse&amp;nbsp; exercício foi utilizado o padrão de projeto chain of responsibility&amp;nbsp; para o sistema de e-mails de uma faculdade, o cliente solicita a interface do email geral que contem assinatura dos métodos para &lt;br&gt;delegar que cada e-mail deverá ter um tratamento especial, dependendo da palavra dentro da classe palavraChave,cada e-mail separadamente verifica se essa palavra corresponde ao seu atendimento, &lt;br&gt;caso nao ele passa pra frente para o próximo e-mail em cadeia, a ordem não importa, pois vai acabar passando por todos os e-mails em cadeia para atender a solicitação&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="850" width="1090" height="50" as="geometry" />
+          <mxGeometry x="60" y="940" width="1090" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_hiokCQZ-LGKm_-X_FdJ-1" value="&lt;b&gt;vantagens&lt;/b&gt;&lt;br&gt;* Aplica o principio da responsabilidade unica(SRP)&lt;br&gt;ou seja, cada e-mail terá uma única responsabilidade que e verificar&amp;nbsp;&lt;br&gt;a palavra e passar para frente.&lt;br&gt;* Aplica o principio do aberto e fechado(OCP)&lt;br&gt;podemos alterar e adicionar novas palavras para atender&lt;br&gt;solicitações diferentes sem ter que mexer em varias partes&lt;br&gt;do codigo&lt;br&gt;&lt;br&gt;* permite que nós alteremos a cadeia de objetos e a ordem das chamadas&lt;br&gt;muito facilmente." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="950" width="410" height="160" as="geometry" />
+          <mxGeometry x="130" y="1040" width="410" height="160" as="geometry" />
         </mxCell>
         <mxCell id="_hiokCQZ-LGKm_-X_FdJ-2" value="&lt;b&gt;desvantagens&lt;/b&gt;&lt;br&gt;* por sua estrutura, é comum uma requisição passar por toda a cadeia e&amp;nbsp;&lt;br&gt;não ser atendida, não por conta do padrão em si, mas pela quantidade de&amp;nbsp;&lt;br&gt;classes e relacionamentos muitas vezes não atinge 100% das solicitações" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="595" y="960" width="410" height="60" as="geometry" />
+          <mxGeometry x="595" y="1050" width="410" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l4f8Vwn4dh6Dy8GlQ0QU-1" value="poderia ser utilizado o padrão de projeto Mediator que trabalha como uma central telefonica que comunica os objetos que precisam de interação" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="145" y="1160" width="780" height="20" as="geometry" />
+          <mxGeometry x="145" y="1250" width="780" height="20" as="geometry" />
         </mxCell>
         <mxCell id="JMo7bT91-sYZ5UhS_gtk-1" value="Exercicio 1 - redirecionnamento de emails" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="30" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Z8v_Yx3fcW0w0y2b_HXT-1" value="Exercicio 1 - redirecionnamento de emails" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="920" width="240" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -162,7 +165,7 @@
         <mxCell id="O-VtrJ_31pTj0DbjxsJc-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;TorradoraBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;#&amp;nbsp;TorradoraIndividual torradoraInd&lt;br&gt;#&amp;nbsp;TorradoraComercial torradoraCom&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;void buildBandejaDeRefrigeracao()&lt;br&gt;+&amp;nbsp;void buildSistemaExaustor()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildBocaDeGas()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildTamborInterno()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildEstruturaPrincipal()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildPlataforma()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildMotor()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildTermostato()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+TorradoraIndividual getTorradoraInd()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+TorradoraComercial getTorradoraCom()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="0rzKR2Agluwp4kBhpItp-1" vertex="1">
           <mxGeometry x="540" y="50" width="230" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="O-VtrJ_31pTj0DbjxsJc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="0rzKR2Agluwp4kBhpItp-1" edge="1">
+        <mxCell id="O-VtrJ_31pTj0DbjxsJc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="0rzKR2Agluwp4kBhpItp-1" edge="1" source="O-VtrJ_31pTj0DbjxsJc-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="315" y="450" as="sourcePoint" />
             <mxPoint x="655" y="300" as="targetPoint" />
@@ -172,58 +175,50 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="O-VtrJ_31pTj0DbjxsJc-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;" parent="0rzKR2Agluwp4kBhpItp-1" edge="1">
+        <mxCell id="O-VtrJ_31pTj0DbjxsJc-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;startArrow=none;startFill=0;" parent="0rzKR2Agluwp4kBhpItp-1" edge="1" source="O-VtrJ_31pTj0DbjxsJc-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="315" y="620" as="sourcePoint" />
-            <mxPoint x="315" y="690" as="targetPoint" />
+            <mxPoint x="314.5" y="620" as="sourcePoint" />
+            <mxPoint x="315" y="670" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="O-VtrJ_31pTj0DbjxsJc-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;TorradoraComBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+String plataforma&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;void buildBandejaDeRefrigeracao()&lt;br&gt;+&amp;nbsp;void buildSistemaExaustor()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildBocaDeGas()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildTamborInterno()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildEstruturaPrincipal()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildPlataforma()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildMotor()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildTermostato()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="0rzKR2Agluwp4kBhpItp-1" vertex="1">
-          <mxGeometry x="200" y="450" width="230" height="190" as="geometry" />
+          <mxGeometry x="200" y="405" width="230" height="190" as="geometry" />
         </mxCell>
         <mxCell id="O-VtrJ_31pTj0DbjxsJc-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;" parent="0rzKR2Agluwp4kBhpItp-1" source="O-VtrJ_31pTj0DbjxsJc-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="655" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="O-VtrJ_31pTj0DbjxsJc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;startArrow=none;startFill=0;" parent="0rzKR2Agluwp4kBhpItp-1" source="O-VtrJ_31pTj0DbjxsJc-5" edge="1">
+        <mxCell id="O-VtrJ_31pTj0DbjxsJc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;startArrow=none;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="0rzKR2Agluwp4kBhpItp-1" source="O-VtrJ_31pTj0DbjxsJc-5" edge="1" target="O-VtrJ_31pTj0DbjxsJc-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1025" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="O-VtrJ_31pTj0DbjxsJc-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;TorradoraIndiviBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+String plataforma&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;void buildBandejaDeRefrigeracao()&lt;br&gt;+&amp;nbsp;void buildSistemaExaustor()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildBocaDeGas()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildTamborInterno()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildEstruturaPrincipal()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildMotor()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildTermostato()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="0rzKR2Agluwp4kBhpItp-1" vertex="1">
-          <mxGeometry x="910" y="440" width="230" height="170" as="geometry" />
+          <mxGeometry x="910" y="415" width="230" height="170" as="geometry" />
         </mxCell>
         <mxCell id="O-VtrJ_31pTj0DbjxsJc-7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;TorradoraComercial&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+String bandejaDeRefrigeracao&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;+String sistemaExaustor&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;+String bocaDeGas&lt;br&gt;+String tamborInterno&lt;br&gt;+String estruturaPrincipal&lt;br&gt;+String Plataforma&lt;br&gt;+String motor&lt;br&gt;+String termostato&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="0rzKR2Agluwp4kBhpItp-1" vertex="1">
-          <mxGeometry x="200" y="710" width="230" height="170" as="geometry" />
+          <mxGeometry x="200" y="640" width="230" height="170" as="geometry" />
         </mxCell>
         <mxCell id="O-VtrJ_31pTj0DbjxsJc-8" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;TorradoraIndividual&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+String bandejaDeRefrigeracao&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;+String sistemaExaustor&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;+String bocaDeGas&lt;br&gt;+String tamborInterno&lt;br&gt;+String estruturaPrincipal&lt;br&gt;+String motor&lt;br&gt;+String termostato&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="0rzKR2Agluwp4kBhpItp-1" vertex="1">
-          <mxGeometry x="910" y="700" width="230" height="170" as="geometry" />
+          <mxGeometry x="910" y="630" width="230" height="170" as="geometry" />
         </mxCell>
         <mxCell id="O-VtrJ_31pTj0DbjxsJc-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;" parent="0rzKR2Agluwp4kBhpItp-1" source="O-VtrJ_31pTj0DbjxsJc-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="655" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="O-VtrJ_31pTj0DbjxsJc-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;" parent="0rzKR2Agluwp4kBhpItp-1" source="O-VtrJ_31pTj0DbjxsJc-11" edge="1">
+        <mxCell id="O-VtrJ_31pTj0DbjxsJc-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;startArrow=none;startFill=0;" parent="0rzKR2Agluwp4kBhpItp-1" source="O-VtrJ_31pTj0DbjxsJc-11" edge="1" target="O-VtrJ_31pTj0DbjxsJc-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="525" as="targetPoint" />
+            <mxPoint x="450" y="525" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="O-VtrJ_31pTj0DbjxsJc-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;startArrow=none;startFill=0;" parent="0rzKR2Agluwp4kBhpItp-1" source="O-VtrJ_31pTj0DbjxsJc-11" target="O-VtrJ_31pTj0DbjxsJc-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O-VtrJ_31pTj0DbjxsJc-11" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;TorradoraDirector&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;#&amp;nbsp;TorradoraBuilder montadora&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+TorradoraDirector()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ void construirTorradoraInd()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&amp;nbsp;+ void construirTorradoraCom()&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+TorradoraIndividual getTorradoraInd()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+TorradoraComercial getTorradoraCom()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="0rzKR2Agluwp4kBhpItp-1" vertex="1">
-          <mxGeometry x="540" y="455" width="230" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="O-VtrJ_31pTj0DbjxsJc-15" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;TorradoraComBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+String plataforma&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;void buildBandejaDeRefrigeracao()&lt;br&gt;+&amp;nbsp;void buildSistemaExaustor()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildBocaDeGas()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildTamborInterno()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildEstruturaPrincipal()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildPlataforma()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildMotor()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildTermostato()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="0rzKR2Agluwp4kBhpItp-1" vertex="1">
-          <mxGeometry x="200" y="430" width="230" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="O-VtrJ_31pTj0DbjxsJc-16" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;TorradoraComercial&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+String bandejaDeRefrigeracao&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;+String sistemaExaustor&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;+String bocaDeGas&lt;br&gt;+String tamborInterno&lt;br&gt;+String estruturaPrincipal&lt;br&gt;+String Plataforma&lt;br&gt;+String motor&lt;br&gt;+String termostato&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="0rzKR2Agluwp4kBhpItp-1" vertex="1">
-          <mxGeometry x="200" y="690" width="230" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="O-VtrJ_31pTj0DbjxsJc-17" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;TorradoraIndividual&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+String bandejaDeRefrigeracao&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;+String sistemaExaustor&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;+String bocaDeGas&lt;br&gt;+String tamborInterno&lt;br&gt;+String estruturaPrincipal&lt;br&gt;+String motor&lt;br&gt;+String termostato&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="0rzKR2Agluwp4kBhpItp-1" vertex="1">
-          <mxGeometry x="910" y="680" width="230" height="170" as="geometry" />
+          <mxGeometry x="540" y="430" width="230" height="140" as="geometry" />
         </mxCell>
         <mxCell id="O-VtrJ_31pTj0DbjxsJc-18" value="para resolver esse exercício foi utilizado o padrão de projeto builder, a classe abstrata TorradoraBuilder delega para os builders os metodos que deverão existir nos 2 tipos de torradeiras&lt;br&gt;cada um com suas especificações, e o torradora director cria o objeto correspondente, orientando na ordem de criação de torradeira comercial ou individual, por fim as torradeiras serão geradas&lt;br&gt;conforme a classe abstrata espera" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="0rzKR2Agluwp4kBhpItp-1" vertex="1">
           <mxGeometry x="90" y="895" width="1040" height="50" as="geometry" />
@@ -239,6 +234,9 @@
         </mxCell>
         <mxCell id="vdxiEEavEFReZzkAn_fy-0" value="Exercicio 3 - torradores de café" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="0rzKR2Agluwp4kBhpItp-1">
           <mxGeometry x="260" y="40" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9i197TQ8WL_3FQpD9ve1-0" value="Exercicio 3 - torradores de café" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="0rzKR2Agluwp4kBhpItp-1">
+          <mxGeometry x="240" y="860" width="180" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

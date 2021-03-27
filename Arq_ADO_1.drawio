@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-27T03:10:47.453Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="5gRSiHYAfhtGJHtMTnVc" version="14.5.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-03-27T03:20:17.756Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="N1fJdgb936PCsE9ETK27" version="14.5.1" type="github" pages="4">
   <diagram id="THf9DWfrAllVLS2fdhjk" name="1_E-mails">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="462" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,11 +86,11 @@
         <mxCell id="Lh6zzHgLQ3Scu1wEVP6W-1" value="Nesse&amp;nbsp; exercício foi utilizado o padrão de projeto chain of responsibility&amp;nbsp; para o sistema de e-mails de uma faculdade, o cliente solicita a interface do email geral que contem assinatura dos métodos para &lt;br&gt;delegar que cada e-mail deverá ter um tratamento especial, dependendo da palavra dentro da classe palavraChave,cada e-mail separadamente verifica se essa palavra corresponde ao seu atendimento, &lt;br&gt;caso nao ele passa pra frente para o próximo e-mail em cadeia, a ordem não importa, pois vai acabar passando por todos os e-mails em cadeia para atender a solicitação&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="850" width="1090" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_hiokCQZ-LGKm_-X_FdJ-1" value="&lt;b&gt;vantagens&lt;/b&gt;&lt;br&gt;* apenas uma instancia&lt;br&gt;* substitui variáveis globais&lt;br&gt;* usa lazy instantiation ( ela é criada somente no momento do uso)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="950" width="370" height="60" as="geometry" />
+        <mxCell id="_hiokCQZ-LGKm_-X_FdJ-1" value="&lt;b&gt;vantagens&lt;/b&gt;&lt;br&gt;* Aplica o principio da responsabilidade unica(SRP)&lt;br&gt;ou seja, cada e-mail terá uma única responsabilidade que e verificar&amp;nbsp;&lt;br&gt;a palavra e passar para frente.&lt;br&gt;* Aplica o principio do aberto e fechado(OCP)&lt;br&gt;podemos alterar e adicionar novas palavras para atender&lt;br&gt;solicitações diferentes sem ter que mexer em varias partes&lt;br&gt;do codigo&lt;br&gt;&lt;br&gt;* permite que nós alteremos a cadeia de objetos e a ordem das chamadas&lt;br&gt;muito facilmente." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="950" width="410" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="_hiokCQZ-LGKm_-X_FdJ-2" value="&lt;b&gt;desvantagens&lt;/b&gt;&lt;br&gt;* dificulta os testes, pois todas as classes dependentes de impressão irão acessa-la&lt;br&gt;&amp;nbsp;e uma alteração pode gerar resultados inesperados&lt;br&gt;*Viola o principio de responsabilidade única&lt;br&gt;* ela precisa de tratamento especial em caso de concorrência, utilização do sinchonized" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="950" width="480" height="80" as="geometry" />
+        <mxCell id="_hiokCQZ-LGKm_-X_FdJ-2" value="&lt;b&gt;desvantagens&lt;/b&gt;&lt;br&gt;* por sua estrutura, é comum uma requisição passar por toda a cadeia e&amp;nbsp;&lt;br&gt;não ser atendida, não por conta do padrão em si, mas pela quantidade de&amp;nbsp;&lt;br&gt;classes e relacionamentos muitas vezes não atinge 100% das solicitações" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="960" width="410" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

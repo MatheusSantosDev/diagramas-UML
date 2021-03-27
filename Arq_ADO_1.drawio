@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-27T19:35:42.843Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="YdSaewv5XLQpK5nOf_P4" version="14.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-03-27T19:43:52.978Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="fq_8xR4vc4rH8-H_tP3-" version="14.5.3" type="github" pages="4">
   <diagram id="THf9DWfrAllVLS2fdhjk" name="1_E-mails">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -244,18 +244,24 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pv3TwzXgZddJM3SGXYqN" name="Sistema_Restaurante">
-    <mxGraphModel dx="460" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="ohO272MbGY923b4xOURf-0" />
         <mxCell id="ohO272MbGY923b4xOURf-1" parent="ohO272MbGY923b4xOURf-0" />
+        <mxCell id="IJ5QMt4XVfY09jPF-fM_-29" value="Façade" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" vertex="1" parent="ohO272MbGY923b4xOURf-1">
+          <mxGeometry x="130" y="820" width="720" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ5QMt4XVfY09jPF-fM_-28" value="Façade" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" vertex="1" parent="ohO272MbGY923b4xOURf-1">
+          <mxGeometry x="120" y="230" width="720" height="300" as="geometry" />
+        </mxCell>
         <mxCell id="WINnRSBNczcAQYw8nKhm-0" value="Exercicio 4 - restaurante e delivery façade" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="ohO272MbGY923b4xOURf-1">
           <mxGeometry x="370" y="90" width="240" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IJ5QMt4XVfY09jPF-fM_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ohO272MbGY923b4xOURf-1" source="IJ5QMt4XVfY09jPF-fM_-0" target="IJ5QMt4XVfY09jPF-fM_-3">
+        <mxCell id="IJ5QMt4XVfY09jPF-fM_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ohO272MbGY923b4xOURf-1" source="IJ5QMt4XVfY09jPF-fM_-0" target="IJ5QMt4XVfY09jPF-fM_-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IJ5QMt4XVfY09jPF-fM_-0" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Cliente&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;Pedir()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="ohO272MbGY923b4xOURf-1">
-          <mxGeometry x="870" y="200" width="120" height="80" as="geometry" />
+          <mxGeometry x="820" y="110" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IJ5QMt4XVfY09jPF-fM_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamond;startFill=0;" edge="1" parent="ohO272MbGY923b4xOURf-1" source="IJ5QMt4XVfY09jPF-fM_-3" target="IJ5QMt4XVfY09jPF-fM_-6">
           <mxGeometry relative="1" as="geometry" />
@@ -287,6 +293,9 @@
         <mxCell id="IJ5QMt4XVfY09jPF-fM_-11" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Carboidratos&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;-Equipe_3 Equipe&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Vegetais()&lt;br&gt;+ void ColetarCarboidratos()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="ohO272MbGY923b4xOURf-1">
           <mxGeometry x="635" y="400" width="170" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="IJ5QMt4XVfY09jPF-fM_-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamond;startFill=0;" edge="1" parent="ohO272MbGY923b4xOURf-1" source="IJ5QMt4XVfY09jPF-fM_-13" target="IJ5QMt4XVfY09jPF-fM_-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IJ5QMt4XVfY09jPF-fM_-13" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Equipe_2&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;-SistemaIntegradoFacade sistema&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Equipe_2&lt;br&gt;+ void PrepararVegetais()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="ohO272MbGY923b4xOURf-1">
           <mxGeometry x="390" y="580" width="200" height="100" as="geometry" />
         </mxCell>
@@ -295,6 +304,27 @@
         </mxCell>
         <mxCell id="IJ5QMt4XVfY09jPF-fM_-18" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Equipe_3&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;-SistemaIntegradoFacade sistema&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Equipe_3&lt;br&gt;+ void PrepararCarboidratos()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="ohO272MbGY923b4xOURf-1">
           <mxGeometry x="620" y="580" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ5QMt4XVfY09jPF-fM_-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamond;startFill=0;" edge="1" parent="ohO272MbGY923b4xOURf-1" source="IJ5QMt4XVfY09jPF-fM_-20" target="IJ5QMt4XVfY09jPF-fM_-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ5QMt4XVfY09jPF-fM_-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=diamond;startFill=0;" edge="1" parent="ohO272MbGY923b4xOURf-1" source="IJ5QMt4XVfY09jPF-fM_-20" target="IJ5QMt4XVfY09jPF-fM_-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ5QMt4XVfY09jPF-fM_-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=diamond;startFill=0;" edge="1" parent="ohO272MbGY923b4xOURf-1" source="IJ5QMt4XVfY09jPF-fM_-20" target="IJ5QMt4XVfY09jPF-fM_-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ5QMt4XVfY09jPF-fM_-20" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;SistemaIntegradoFacade&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;-SubSisEquip_1 sistemaUm&lt;/span&gt;&lt;/p&gt;&amp;nbsp;-SubSisEquip_2 sistemaDois&lt;br&gt;&amp;nbsp;-SubSisEquip_3 sistemaTres&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+SistemaIntegradoFacade()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void iniciarSubsistemaUm()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void iniciarSubsistemadois()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void iniciarSubsistematres()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="ohO272MbGY923b4xOURf-1">
+          <mxGeometry x="390" y="760" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ5QMt4XVfY09jPF-fM_-22" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;SubSisEquip_2&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&amp;nbsp;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;+void startSistemaDois()&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="ohO272MbGY923b4xOURf-1">
+          <mxGeometry x="390" y="990" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ5QMt4XVfY09jPF-fM_-24" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;SubSisEquip_1&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&amp;nbsp;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;+void startSistemaUm()&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="ohO272MbGY923b4xOURf-1">
+          <mxGeometry x="160" y="990" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ5QMt4XVfY09jPF-fM_-25" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;SubSisEquip_3&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&amp;nbsp;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;+void startSistemaTres()&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="ohO272MbGY923b4xOURf-1">
+          <mxGeometry x="630" y="990" width="200" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

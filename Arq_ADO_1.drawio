@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-27T06:08:37.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="meXq9Nodyp1HBJ3xfEBP" version="14.5.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-03-27T06:23:26.218Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="egtp-3nLHS3CerWMVAz0" version="14.5.1" type="github" pages="4">
   <diagram id="THf9DWfrAllVLS2fdhjk" name="1_E-mails">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -148,8 +148,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="t5bgA46i2kPyoGgze71Z" name="Page-3">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <diagram id="t5bgA46i2kPyoGgze71Z" name="Torradores_de_cafe">
+    <mxGraphModel dx="462" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0rzKR2Agluwp4kBhpItp-0" />
         <mxCell id="0rzKR2Agluwp4kBhpItp-1" parent="0rzKR2Agluwp4kBhpItp-0" />
@@ -224,6 +224,15 @@
         </mxCell>
         <mxCell id="O-VtrJ_31pTj0DbjxsJc-17" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;TorradoraIndividual&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+String bandejaDeRefrigeracao&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;+String sistemaExaustor&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;+String bocaDeGas&lt;br&gt;+String tamborInterno&lt;br&gt;+String estruturaPrincipal&lt;br&gt;+String motor&lt;br&gt;+String termostato&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="0rzKR2Agluwp4kBhpItp-1">
           <mxGeometry x="910" y="680" width="230" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="O-VtrJ_31pTj0DbjxsJc-18" value="para resolver esse exercício foi utilizado o padrão de projeto builder, a classe abstrata TorradoraBuilder delega para os builders os metodos que deverão existir nos 2 tipos de torradeiras&lt;br&gt;cada um com suas especificações, e o torradora director cria o objeto correspondente, orientando na ordem de criação de torradeira comercial ou individual, por fim as torradeiras serão geradas&lt;br&gt;conforme a classe abstrata espera" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="0rzKR2Agluwp4kBhpItp-1">
+          <mxGeometry x="90" y="895" width="1040" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9_rLL8DhfQTqH4dtjU5_-0" value="&lt;b&gt;vantagens&lt;/b&gt;&lt;br&gt;* Separa a criação de utilização&lt;br&gt;* Cliente não precisa criar as torradeiras diretamente&lt;br&gt;*O mesmo codigo pode construir objetos diferentes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="0rzKR2Agluwp4kBhpItp-1">
+          <mxGeometry x="155" y="1030" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9_rLL8DhfQTqH4dtjU5_-1" value="&lt;b&gt;desvantagens&lt;/b&gt;&lt;br&gt;* o código final pode se tornar muito complexo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="0rzKR2Agluwp4kBhpItp-1">
+          <mxGeometry x="670" y="1055" width="260" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

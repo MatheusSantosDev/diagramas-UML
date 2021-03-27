@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-27T05:25:23.216Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="xX72TS3WXJkCQobA0672" version="14.5.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-03-27T06:03:12.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="XstHhhukBbtyxScHL6dN" version="14.5.1" type="github" pages="4">
   <diagram id="THf9DWfrAllVLS2fdhjk" name="1_E-mails">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -149,10 +149,51 @@
     </mxGraphModel>
   </diagram>
   <diagram id="t5bgA46i2kPyoGgze71Z" name="Page-3">
-    <mxGraphModel dx="462" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0rzKR2Agluwp4kBhpItp-0" />
         <mxCell id="0rzKR2Agluwp4kBhpItp-1" parent="0rzKR2Agluwp4kBhpItp-0" />
+        <mxCell id="O-VtrJ_31pTj0DbjxsJc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;startArrow=none;startFill=0;" edge="1" parent="0rzKR2Agluwp4kBhpItp-1" source="O-VtrJ_31pTj0DbjxsJc-0" target="O-VtrJ_31pTj0DbjxsJc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-VtrJ_31pTj0DbjxsJc-0" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Cliente&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;Construir()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="0rzKR2Agluwp4kBhpItp-1">
+          <mxGeometry x="130" y="130" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="O-VtrJ_31pTj0DbjxsJc-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;TorradoraBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;#&amp;nbsp;TorradoraIndividual torradoraInd&lt;br&gt;#&amp;nbsp;TorradoraComercial torradoraCom&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;void buildBandejaDeRefrigeracao()&lt;br&gt;+&amp;nbsp;void buildSistemaExaustor()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildBocaDeGas()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildTamborInterno()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildEstruturaPrincipal()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildPlataforma()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildMotor()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildTermostato()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+TorradoraIndividual getTorradoraInd()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+TorradoraComercial getTorradoraCom()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="0rzKR2Agluwp4kBhpItp-1">
+          <mxGeometry x="610" y="50" width="230" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="O-VtrJ_31pTj0DbjxsJc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=none;startFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="0rzKR2Agluwp4kBhpItp-1" source="O-VtrJ_31pTj0DbjxsJc-3" target="O-VtrJ_31pTj0DbjxsJc-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="485" y="380" />
+              <mxPoint x="725" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O-VtrJ_31pTj0DbjxsJc-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;" edge="1" parent="0rzKR2Agluwp4kBhpItp-1" source="O-VtrJ_31pTj0DbjxsJc-3" target="O-VtrJ_31pTj0DbjxsJc-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-VtrJ_31pTj0DbjxsJc-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;TorradoraComBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+String plataforma&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;void buildBandejaDeRefrigeracao()&lt;br&gt;+&amp;nbsp;void buildSistemaExaustor()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildBocaDeGas()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildTamborInterno()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildEstruturaPrincipal()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildPlataforma()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildMotor()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildTermostato()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="0rzKR2Agluwp4kBhpItp-1">
+          <mxGeometry x="370" y="450" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="O-VtrJ_31pTj0DbjxsJc-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;" edge="1" parent="0rzKR2Agluwp4kBhpItp-1" source="O-VtrJ_31pTj0DbjxsJc-5" target="O-VtrJ_31pTj0DbjxsJc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-VtrJ_31pTj0DbjxsJc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;startArrow=none;startFill=0;" edge="1" parent="0rzKR2Agluwp4kBhpItp-1" source="O-VtrJ_31pTj0DbjxsJc-5" target="O-VtrJ_31pTj0DbjxsJc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-VtrJ_31pTj0DbjxsJc-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;TorradoraIndiviBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+String plataforma&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;void buildBandejaDeRefrigeracao()&lt;br&gt;+&amp;nbsp;void buildSistemaExaustor()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildBocaDeGas()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildTamborInterno()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildEstruturaPrincipal()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildMotor()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void buildTermostato()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="0rzKR2Agluwp4kBhpItp-1">
+          <mxGeometry x="910" y="460" width="230" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="O-VtrJ_31pTj0DbjxsJc-7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;TorradoraComercial&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+String bandejaDeRefrigeracao&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;+String sistemaExaustor&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;+String bocaDeGas&lt;br&gt;+String tamborInterno&lt;br&gt;+String estruturaPrincipal&lt;br&gt;+String Plataforma&lt;br&gt;+String motor&lt;br&gt;+String termostato&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="0rzKR2Agluwp4kBhpItp-1">
+          <mxGeometry x="370" y="750" width="230" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="O-VtrJ_31pTj0DbjxsJc-8" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;TorradoraComercial&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+String bandejaDeRefrigeracao&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;+String sistemaExaustor&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;+String bocaDeGas&lt;br&gt;+String tamborInterno&lt;br&gt;+String estruturaPrincipal&lt;br&gt;+String motor&lt;br&gt;+String termostato&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="0rzKR2Agluwp4kBhpItp-1">
+          <mxGeometry x="910" y="720" width="230" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="O-VtrJ_31pTj0DbjxsJc-11" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;TorradoraDirector&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;#&amp;nbsp;TorradoraBuilder montadora&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+TorradoraDirector()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ void construirTorradoraInd()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&amp;nbsp;+ void construirTorradoraCom()&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+TorradoraIndividual getTorradoraInd()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+TorradoraComercial getTorradoraCom()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="0rzKR2Agluwp4kBhpItp-1">
+          <mxGeometry x="630" y="530" width="230" height="140" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

@@ -1,1 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2021-05-15T20:22:44.224Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="14.6.13" etag="g6pj3NneR_uDlF0MMB8P" type="github"><diagram id="9cqJytVV9-QwpBB9gtsu">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-15T20:32:31.717Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="KlvmpFmnZaMOt8vqb3q1" version="14.6.13" type="github">
+  <diagram id="9cqJytVV9-QwpBB9gtsu" name="Page-1">
+    <mxGraphModel dx="460" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FFhV_NodyDtP96QHCTSx-1" value="Arquitetura MVC - campeonato" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="445" y="240" width="185" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FFhV_NodyDtP96QHCTSx-2" value="MVC" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="430" width="560" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="FFhV_NodyDtP96QHCTSx-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FFhV_NodyDtP96QHCTSx-5" target="FFhV_NodyDtP96QHCTSx-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FFhV_NodyDtP96QHCTSx-10" value="Requisições" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FFhV_NodyDtP96QHCTSx-9">
+          <mxGeometry x="-0.7829" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFhV_NodyDtP96QHCTSx-5" value="Usuário" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FFhV_NodyDtP96QHCTSx-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FFhV_NodyDtP96QHCTSx-8" target="FFhV_NodyDtP96QHCTSx-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FFhV_NodyDtP96QHCTSx-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FFhV_NodyDtP96QHCTSx-8" target="FFhV_NodyDtP96QHCTSx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FFhV_NodyDtP96QHCTSx-8" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Controllers&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;ClassificacaoServlet&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="480" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FFhV_NodyDtP96QHCTSx-11" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Models&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;PartidaModel&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;TimesModel&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="590" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FFhV_NodyDtP96QHCTSx-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FFhV_NodyDtP96QHCTSx-13" target="FFhV_NodyDtP96QHCTSx-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FFhV_NodyDtP96QHCTSx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FFhV_NodyDtP96QHCTSx-13" target="FFhV_NodyDtP96QHCTSx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FFhV_NodyDtP96QHCTSx-18" value="Resposta" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FFhV_NodyDtP96QHCTSx-17">
+          <mxGeometry x="0.0933" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFhV_NodyDtP96QHCTSx-13" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Views&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Cadastro.jsp&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Lista.jsp&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="550" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FFhV_NodyDtP96QHCTSx-15" value="Servidor (Tomcat)" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="710" y="750" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2021-05-31T12:41:32.478Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="14.7.2" etag="OJ8Eri0_ig1BINNo4Xpp" type="github"><diagram id="LqB8bqA6eQ__GW4WmAGL">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-31T12:54:55.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="nNKX-ZohpVNzi-3_s0yV" version="14.7.2" type="github">
+  <diagram id="LqB8bqA6eQ__GW4WmAGL" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-q_v5kkXqhMpHcqImr-7-3" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;View&lt;/font&gt;&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="300" width="300" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="-q_v5kkXqhMpHcqImr-7-8" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;Cardapio&lt;br&gt;Nome das pizzas&lt;br&gt;Ingredientes&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="370" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-q_v5kkXqhMpHcqImr-7-9" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;Controller&lt;/font&gt;&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="295" width="300" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="-q_v5kkXqhMpHcqImr-7-10" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;Receber Pedidos&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="204" y="370" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-q_v5kkXqhMpHcqImr-7-11" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;Model&lt;/font&gt;&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="124" y="600" width="436" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="-q_v5kkXqhMpHcqImr-7-12" value="Sabores Principais" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="648" width="140" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="-q_v5kkXqhMpHcqImr-7-13" value="Mussarela" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-q_v5kkXqhMpHcqImr-7-12">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-q_v5kkXqhMpHcqImr-7-14" value="Calabreza" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-q_v5kkXqhMpHcqImr-7-12">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-q_v5kkXqhMpHcqImr-7-15" value="Frango" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-q_v5kkXqhMpHcqImr-7-12">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-q_v5kkXqhMpHcqImr-7-16" value="Ingredientes Basicos" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="648" width="140" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="-q_v5kkXqhMpHcqImr-7-17" value="Azeitona" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-q_v5kkXqhMpHcqImr-7-16">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-q_v5kkXqhMpHcqImr-7-18" value="Tomate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-q_v5kkXqhMpHcqImr-7-16">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-q_v5kkXqhMpHcqImr-7-19" value="Oregano" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-q_v5kkXqhMpHcqImr-7-16">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-q_v5kkXqhMpHcqImr-7-20" value="Pizza" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="800" width="140" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="-q_v5kkXqhMpHcqImr-7-21" value="Sabor Principal" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-q_v5kkXqhMpHcqImr-7-20">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-q_v5kkXqhMpHcqImr-7-23" value="Ingredientes Basicos" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-q_v5kkXqhMpHcqImr-7-20">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-q_v5kkXqhMpHcqImr-7-24" value="Pedido" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="800" width="140" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="-q_v5kkXqhMpHcqImr-7-25" value="Nome pessoa" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-q_v5kkXqhMpHcqImr-7-24">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-q_v5kkXqhMpHcqImr-7-26" value="Pizzas" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-q_v5kkXqhMpHcqImr-7-24">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
